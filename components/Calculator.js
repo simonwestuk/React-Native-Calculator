@@ -157,7 +157,7 @@ export default function Calculator() {
             }/>
           <CButton input="." colour="purple" press={ () =>   { 
             if (val == '0') {
-              setVal('0')
+              setVal('0.')
             }
             else if (val.length < 6 && !val.includes('.')) { 
               setVal(val + '.') 
