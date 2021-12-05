@@ -207,6 +207,7 @@ const styles = StyleSheet.create({
   outerContainer: {
     flex: 1,
     justifyContent:'flex-end',
+    alignContent: 'center',
     marginBottom: 75,
     marginHorizontal: 20
   },

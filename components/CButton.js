@@ -38,7 +38,9 @@ const styles = StyleSheet.create({
     fontFamily: 'Arial'
   },
     cpress: {
-    width: '25%'
+      width: '25%',
+      alignItems: "center",
+      justifyContent: "center",
   }
 });
 

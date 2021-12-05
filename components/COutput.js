@@ -16,7 +16,6 @@ const styles = StyleSheet.create({
     height: 200,
     alignItems: "flex-end",
     justifyContent: "flex-end",
-    paddingRight: 10,
     paddingBottom: 10,
     borderWidth: 1
   },
