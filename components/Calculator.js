@@ -36,7 +36,7 @@ export default function Calculator() {
               }
               } } 
             }/>
-          <CButton input="/" colour="indigo" press={ () =>   { 
+          <CButton input="÷" colour="indigo" press={ () =>   { 
               setResult(val)
               setVal('0')
               setOp('/')
@@ -67,7 +67,7 @@ export default function Calculator() {
               setVal(val + '9') 
               } } 
             }/>
-          <CButton input="*" colour="indigo" press={ () =>   { 
+          <CButton input="×" colour="indigo" press={ () =>   { 
               setResult(val)
               setVal('0')
               setOp('*')
@@ -98,7 +98,7 @@ export default function Calculator() {
               setVal(val + '6') 
               } } 
             }/>
-          <CButton input="-" colour="indigo" press={ () =>   { 
+          <CButton input="−" colour="indigo" press={ () =>   { 
               setResult(val)
               setVal('0')
               setOp('-')
@@ -136,7 +136,7 @@ export default function Calculator() {
             }}/>
       </View>
       <View style={styles.container}>
-          <CButton input="-/+" colour="purple" press={ () =>   { 
+          <CButton input="−/+" colour="purple" press={ () =>   { 
             if (val == '0') {
               setVal('0')
             }
